@@ -1,0 +1,17 @@
+# R:
+a <- 15/13 
+a %>% format(digits = 22) 
+1.153846153846153743672 %>% signif(digits = 10)
+a %>% signif(digits = 10)
+a %>% round(digits = 10)
+a %>% janitor::round_half_up(digits = 10)
+
+b <- 1.4 
+b %>% format(digits = 22) 
+1.399999999999999911182 %>% signif(digits = 10)
+b %>% signif(digits = 10)
+b %>% round(digits = 10)
+b %>% janitor::round_half_up(digits = 10)
+
+
+# SAS:
